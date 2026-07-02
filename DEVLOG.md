@@ -13,6 +13,9 @@ Entry types:
 
 <!-- entries go here, newest at the top -->
 
+## Prediction: 06-02-2026 @ 5:35pm
+When building GitHub client and thinking about approaches, I am realizing that my first agentic systems approach, the prompt-chaining, will not be able to detect duplicates. This will need to be confirmed with the eval of course, but because the chaining is not dynamic, the agent will not be able to go search for GitHub issues - it is strictly classifying. I wanted to note this as a known limitation.
+
 ## Decision + Prediction: 06-02-2026 @ 5:04pm
 Hello, DevLog! I am just now getting started with this project. Before I jump in and start building some agentic systems, I wanted to give my predictions first to look back on when the project and analysis is complete. I know going in I am going to be building out three systems to analyze: prompt-chain workflow (fixed sequence of LLM calls), a single-tool using agent (one agent in a loop with tools), and a multi-agent / orchestrator-worker agent (orchestrator delegating to sub-agents). I am basing these off of Anthropic's guide on building effective agents (https://www.anthropic.com/engineering/building-effective-agents). I figured that this was a good range between me (the developer) being involved versus being completely hands-off.  
   
