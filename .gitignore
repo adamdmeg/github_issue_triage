@@ -1,0 +1,15 @@
+CLAUDE.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+
+# Env
+.env
+
+# Eval outputs
+results/*
+!results/.gitkeep
