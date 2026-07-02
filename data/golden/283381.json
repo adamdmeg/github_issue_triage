@@ -1,0 +1,11 @@
+{
+  "labels": ["bug"],
+  "priority": "P2",
+  "area": "extensions",
+  "needs_more_info": {
+    "needed": false,
+    "missing": null
+  },
+  "suggested_response": "confirmed, repro is clear, marked for backlog",
+  "is_duplicate_of": null
+}

@@ -1,0 +1,11 @@
+{
+  "labels": ["bug"],
+  "priority": "P2",
+  "area": "extensions",
+  "needs_more_info": {
+    "needed": true,
+    "missing": "Cannot confirm if this reproduces on the latest insiders build"
+  },
+  "suggested_response": "confirmed, can you verify this reproduces on the latest insiders build?",
+  "is_duplicate_of": null
+}

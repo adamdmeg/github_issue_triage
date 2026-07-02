@@ -1,0 +1,6 @@
+{
+  "number": 323423,
+  "title": "Invalid slash sub-command should respond with the valid options instead of a flat error",
+  "body": "Testing #323402\n\nRunning an unsupported sub-command, e.g. `/memory disable`, returns a bare \"invalid command\" error. The rejection is correct (`/memory` supports `on`/`off`/`show`, not `disable`), but the error is a dead end.\n\nIt would be much more helpful to **respond with the valid options** when a sub-command is unknown — for example:\n- \"Unknown option 'disable'. Did you mean: `on`, `off`, `show`?\"\n- or re-trigger completions for that command's sub-commands so the user can pick a valid one\n- bonus: suggest the closest match (`disable` → `off`)\n\nNote: the validation likely comes from the Copilot CLI / SDK rather than VS Code's completion layer, so this may be an upstream item (similar to #323401).\n",
+  "comments": []
+}

@@ -1,0 +1,8 @@
+{
+  "number": 309937,
+  "title": "Acceso denegado en chat y Languaje model unavailable en VSC",
+  "body": "<!-- ⚠️⚠️ Do Not Delete This! bug_report_template ⚠️⚠️ -->\n<!-- Please read our Rules of Conduct: https://opensource.microsoft.com/codeofconduct/ -->\n<!-- 🕮 Read our guide about submitting issues: https://github.com/microsoft/vscode/wiki/Submitting-Bugs-and-Suggestions -->\n<!-- 🔎 Search existing issues to avoid creating duplicates. -->\n<!-- 🧪 Test using the latest Insiders build to see if your issue has already been fixed: https://code.visualstudio.com/insiders/ -->\n<!-- 💡 Instead of creating your report here, use 'Report Issue' from the 'Help' menu in VS Code to pre-fill useful information. -->\n<!-- 🔧 Launch with `code --disable-extensions` to check. -->\nDoes this issue occur when all extensions are disabled?: Yes/No\n\n<!-- 🪓 If you answered No above, use 'Help: Start Extension Bisect' from Command Palette to try to identify the cause. -->\n<!-- 📣 Issues caused by an extension need to be reported directly to the extension publisher. The 'Help > Report Issue' dialog can assist with this. -->\n- VS Code Version: 1.115.0\n- OS Version: Windows NT x64 10.0.19045\n\nSteps to Reproduce:\n\n1. Ingreso a https://github.com/copilot/agents\n2. me dice Acceso denegado\n\n<img width=\"1365\" height=\"647\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/44c11d07-6db4-431f-80d5-97e486010902\" />\n\n<img width=\"587\" height=\"949\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/4a1f0faf-78b7-4eff-a78f-01c44d1bf5dd\" />",
+  "comments": [
+    "See https://github.com/microsoft/vscode/issues/309766"
+  ]
+}

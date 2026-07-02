@@ -1,0 +1,11 @@
+{
+  "number": 297827,
+  "title": "Copilot Welcome Page: Title line height is too small",
+  "body": "Title line height is too small, so the text overlaps with itself when it wraps\n\n<img width=\"321\" height=\"739\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d771e65f-4cb5-4edf-88a2-60827b153dab\" />",
+  "comments": [
+    "The issue appears to be caused by insufficient line-height on the title when it wraps.\n\nProposed fix:\nUse a relative line-height (e.g., 1.2–1.4) instead of a fixed or default value.\n\nExample:\n.title {\n  line-height: 1.3;\n}\n\nThis ensures proper spacing across different screen sizes and zoom levels.",
+    "Hi @jruales @benibenj @bpasero ! I think I might know the fix for this issue and would like to work on it. Could you please assign it to me?",
+    "Sharing media from merged PR #304686 for verification:\n\n<img width=\"278\" height=\"144\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d2402536-5324-4dae-b0e3-fdcab380640a\" />\n\n<img width=\"283\" height=\"151\" alt=\"image\" src=\"https://github.com/user-attachments/assets/de4f0a37-19e9-41d4-83d1-18176bf0a465\" />\n\nSource PR: https://github.com/microsoft/vscode/pull/304686",
+    "Verified! Looks much better."
+  ]
+}

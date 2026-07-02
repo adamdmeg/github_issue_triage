@@ -1,0 +1,6 @@
+{
+  "number": 324066,
+  "title": "Endless spinner in Changes for non git folders",
+  "body": "* Start a new AHP Copilot chat in a folder that doesn't use git\n* Observe that the Changes view loads up and doesn't finish loading\n\ncc @kieferrm \n\n```\nVersion: 1.128.0-insider\nCommit: a6f8e84822a159b1de1e15d98798cac65ef14f63\nDate: 2026-07-01T20:31:17-07:00\nElectron: 42.5.0\nElectronBuildId: 14525058\nChromium: 148.0.7778.271\nNode.js: 24.17.0\nV8: 14.8.178.33-electron.0\nOS: Darwin arm64 25.5.0\n```",
+  "comments": []
+}

@@ -1,0 +1,11 @@
+{
+  "labels": ["bug"],
+  "priority": "P2",
+  "area": "extensions",
+  "needs_more_info": {
+    "needed": true,
+    "missing": "Body only contains screenshots and a reference to another issue; no written repro steps"
+  },
+  "suggested_response": "thanks for the report, could you provide written repro steps?",
+  "is_duplicate_of": null
+}

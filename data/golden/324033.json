@@ -1,0 +1,11 @@
+{
+  "labels": ["bug"],
+  "priority": "P2",
+  "area": "extensions",
+  "needs_more_info": {
+    "needed": true,
+    "missing": "Does not confirm whether the issue reproduces with all extensions disabled"
+  },
+  "suggested_response": "thanks for the detailed report, can you confirm this reproduces with all extensions disabled?",
+  "is_duplicate_of": null
+}

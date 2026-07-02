@@ -1,0 +1,11 @@
+{
+  "labels": ["bug"],
+  "priority": "P3",
+  "area": "extensions",
+  "needs_more_info": {
+    "needed": true,
+    "missing": "Issue is in Spanish with incomplete template; repro steps reference a web URL rather than VS Code behavior; missing VS Code version and OS info"
+  },
+  "suggested_response": "thanks for the report, could you fill in the issue template in English with your VS Code version and repro steps?",
+  "is_duplicate_of": null
+}

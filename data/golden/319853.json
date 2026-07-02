@@ -1,0 +1,11 @@
+{
+  "labels": ["bug"],
+  "priority": "P1",
+  "area": "terminal",
+  "needs_more_info": {
+    "needed": false,
+    "missing": null
+  },
+  "suggested_response": "confirmed regression in 1.123, tracking fix upstream in xterm.js",
+  "is_duplicate_of": null
+}

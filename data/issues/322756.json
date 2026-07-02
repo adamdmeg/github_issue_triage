@@ -1,0 +1,6 @@
+{
+  "number": 322756,
+  "title": "Improve testing for terminal gpu acceleration",
+  "body": "`terminal.integrated.gpuAcceleration` \nBeen seeing multiple instances of rendering glitch/break apart especially when using TUI CLI such as Copilot CLI in terminal editor, etc. \n\nWanting to have stress test, better coverage for terminal gpu acceleration, maybe this should also add test in xterm.js directly as well. \n<img width=\"1523\" height=\"1036\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/0f2b6833-20f0-43a6-afa3-ea876d2f1b54\" />",
+  "comments": []
+}

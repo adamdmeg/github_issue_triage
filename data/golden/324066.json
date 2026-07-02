@@ -1,0 +1,11 @@
+{
+  "labels": ["bug"],
+  "priority": "P2",
+  "area": "workbench",
+  "needs_more_info": {
+    "needed": true,
+    "missing": "Cannot confirm if this reproduces in a stable build or is insider-specific"
+  },
+  "suggested_response": "thanks for the report, can you confirm this also reproduces in a stable build, or is this insider-specific?",
+  "is_duplicate_of": null
+}

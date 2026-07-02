@@ -1,0 +1,11 @@
+{
+  "labels": ["bug"],
+  "priority": "P2",
+  "area": "terminal",
+  "needs_more_info": {
+    "needed": true,
+    "missing": "Missing VS Code version and OS version; repro steps written in Chinese"
+  },
+  "suggested_response": "thanks for the report, could you provide your VS Code and OS version, and repro steps in English?",
+  "is_duplicate_of": null
+}

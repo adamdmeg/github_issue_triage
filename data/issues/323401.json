@@ -1,0 +1,6 @@
+{
+  "number": 323401,
+  "title": "Sub commands for Copilot CLI slash commands don't contain meaningful docs/descriptions",
+  "body": "E.g. on/off/show all have the same description\n\nUpstream issue https://github.com/github/copilot-sdk/issues/1802\n\n<img width=\"861\" height=\"171\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/f608a053-6e0b-40fc-85a7-cb2429cf0a88\" />",
+  "comments": []
+}

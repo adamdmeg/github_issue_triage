@@ -1,0 +1,11 @@
+{
+  "labels": ["feature"],
+  "priority": "P3",
+  "area": "extensions",
+  "needs_more_info": {
+    "needed": false,
+    "missing": null
+  },
+  "suggested_response": "thanks for the suggestion, added to backlog",
+  "is_duplicate_of": null
+}

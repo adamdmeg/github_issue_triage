@@ -1,0 +1,11 @@
+{
+  "labels": ["feature"],
+  "priority": "P2",
+  "area": "workbench",
+  "needs_more_info": {
+    "needed": false,
+    "missing": null
+  },
+  "suggested_response": "thanks for the detailed write-up, added to backlog",
+  "is_duplicate_of": null
+}

@@ -1,0 +1,11 @@
+{
+  "number": 314060,
+  "title": "Linux: `cat ~/.bashrc` run twice in sandbox",
+  "body": "Testing #313276\n\nIt is run twice before it (correctly) fails:\n\n<img width=\"563\" height=\"330\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ade834fb-8656-4cfb-ad56-9516d8187116\" />\n\n<img width=\"1494\" height=\"323\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/b626f02a-d5dd-48a7-9e9f-dcf73e212962\" />",
+  "comments": [
+    "It actually looks like it did not run at all. When I instead use `echo test >/some/writable/path` the LLM does not detect that the command did not run and stops, but the file isn't written to. Only when I then tell it to run the command again will it actually do it.\n\n<img width=\"1248\" height=\"276\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/39492d02-e509-4d7d-8d56-0e7853c9b267\" />",
+    "@chrmarti I cant repro this in wsl. Is this also in  ubuntu 24.04+",
+    "Yes. It seems the first run only opens cli.js. This is probably a duplicate issue of https://github.com/microsoft/vscode/issues/312691.",
+    "Let's close as dup https://github.com/microsoft/vscode/issues/312691\nAnd I moved that issue to next milestone"
+  ]
+}

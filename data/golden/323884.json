@@ -1,0 +1,11 @@
+{
+  "labels": ["feature"],
+  "priority": "P3",
+  "area": "workbench",
+  "needs_more_info": {
+    "needed": true,
+    "missing": "Feature request lacks detail — which UI surfaces (Welcome tab only? File menu?), expected interaction (icon, right-click, modifier key?)"
+  },
+  "suggested_response": "thanks for the suggestion, could you share more detail on how you'd expect this to work and where?",
+  "is_duplicate_of": null
+}
