@@ -13,6 +13,16 @@ Entry types:
 
 <!-- entries go here, newest at the top -->
 
+## Thought: `needs_more_info` is about the reporter, not the team
+*07-07-2026*
+
+When running the prompt chain on issue 283381, the model returned `needs_more_info: true` with a missing field about intended behavior — should domains be deduplicated, what should the UI look like across single vs. multi-URL scenarios. That sounds reasonable on the surface, but the golden label has `needed: false`. The insight: `needs_more_info` should only be true if the *reporter* is missing something we need from them to reproduce or understand the issue. Ambiguity about intended behavior or product direction is an internal team decision, not something to ask the reporter for. The prompt doesn't make that distinction clear, which is why the model got it wrong. This is a fixable prompt problem — and it'll be interesting to see if the other two approaches handle it better with more context available to them.
+
+## Thought + Prediction: `suggested_response` will expose the prompt chain's blind spots — and that's the point
+*07-07-2026*
+
+When building `_step_respond`, I started questioning whether `suggested_response` was even a useful field. The prompt chain has no access to the codebase, team structure, or other issues — so how can it generate a meaningful response? It's going to produce something generic like "thanks, marking as P2 in extensions." But I think that's actually the point. This field is the canary that reveals what each architecture actually knows. The prompt chain's response will be flat and templated. The single agent, which can search for related issues, should do better. The multi-agent might be the most informed of all. That delta across approaches is exactly what I'm trying to measure, and `suggested_response` is where it'll be most visible. Keeping the field — it becomes evidence for the writeup, not a weakness of the schema.
+
 ## Decision: golden labels should reflect the issue at arrival, not after maintainer resolution
 *06-02-2026 @ 6:43pm*
 
